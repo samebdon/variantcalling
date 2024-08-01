@@ -26,7 +26,7 @@ WorkflowMain.initialise(workflow, params, log)
 include { VARIANTCALLING } from './workflows/variantcalling'
 
 //
-// WORKFLOW: Run main sanger-tol/variantcalling analysis pipeline
+// WORKFLOW: Run main obscuromics/variantcalling analysis pipeline
 //
 workflow OBSCUROMICS_VARIANTCALLING {
     VARIANTCALLING ()

@@ -49,7 +49,7 @@ Steps involved:
 4. Start running your own analysis!
 
    ```bash
-   nextflow run obscuromics/variantcalling --input samplesheet.csv --outdir <OUTDIR> --fasta genome.fasta.gz -profile <docker/singularity/podman/shifter/charliecloud/conda/institute>
+   nextflow run obscuromics/variantcalling -params-file params.json  -profile <docker/singularity/podman/shifter/charliecloud/conda/institute>
    ```
 
 ## Credits
